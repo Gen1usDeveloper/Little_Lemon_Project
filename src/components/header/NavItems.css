@@ -60,7 +60,10 @@
   .nav-items.active li {
     text-align: center;
     width: 100%;
-    padding: 10px;
+    padding: 8px;
+  }
+  .nav-items.active li a:hover{
+    color: white;
   }
 
   .nav-items.active li:hover {
