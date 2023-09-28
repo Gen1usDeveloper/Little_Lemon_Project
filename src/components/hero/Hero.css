@@ -97,16 +97,18 @@
   }
 }
 
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 780px) {
   .hero {
-    height: 450px;
+    height: 400px;
+    margin-bottom: 0px;
   }
   .hero-container {
     flex-direction: column;
+    margin-bottom: 0px;
   }
 
   .hero-image {
-    width: 50%;
+    width: 45%;
     height: 180px;
     position:absolute;
     margin-top: 100px;

@@ -60,7 +60,7 @@
 @media screen and (max-width: 659px) {
 
   .footer {
-    height: 950px;
+    height: 720px;
   }
   .footer-des {
     flex-direction: column;
