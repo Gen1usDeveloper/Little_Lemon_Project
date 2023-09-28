@@ -111,6 +111,8 @@ img:hover{
   .card-text:hover{
     background-color: rgb(132, 202, 1);
     color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
     .card-title{
       color: black;
     }

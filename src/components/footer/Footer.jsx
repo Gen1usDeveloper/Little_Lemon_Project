@@ -1,5 +1,9 @@
 import "./Footer.css";
 import Logo from "../../assets/logo.png";
+import Github from "../../assets/icons8-github-24.png";
+import linkedin from "../../assets/icons8-linkedin-logo-48.png";
+import facebook from "../../assets/icons8-facebook-logo-48.png";
+import fiver from "../../assets/icons8-fiverr-48.png";
 
 const Footer = () => {
   return (
@@ -29,6 +33,11 @@ const Footer = () => {
               <h5>LOCATIONS</h5>
               <ul>
                 <li>100 Blv, Los Angeles MA</li>
+               <li><a href="https://github.com/Gen1usDeveloper/Little_Lemon_Capstone/tree/main"><img id="github" src={Github} alt="Github"></img></a>
+               <a href=""><img id="linkedin"src={linkedin} alt="linkedin"></img></a>
+               <a href=""><img id="facebook"src={facebook} alt="facebook"></img></a>
+               <a href=""><img id="fiverr"src={fiver} alt="fiverr"></img></a>
+               </li>
               </ul>
             </div>
           </div>

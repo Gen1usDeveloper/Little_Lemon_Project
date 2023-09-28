@@ -33,7 +33,7 @@ function ReservationForm() {
 
   const formSubmit = (data) => {
     console.table(data);
-    alert("Form Submitted Successfully!");
+    alert("Table Reserved Successfully!");
     window.location.href = window.location.origin;
   };
 

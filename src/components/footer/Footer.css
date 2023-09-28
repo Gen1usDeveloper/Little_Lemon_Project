@@ -37,6 +37,26 @@
   color: lightgray;
   margin-bottom: 0px;
 }
+#github{
+  height: 13%;
+  width: 13%;
+}
+#github:hover{
+  background-color:white;
+  border-radius: 1px;
+}
+#facebook{
+  height: 13%;
+  width: 13%;
+}
+#linkedin{
+  height: 13%;
+  width: 13%;
+}
+#fiverr{
+  height: 13%;
+  width: 13%;
+}
 
 @media screen and (max-width: 1024px) {
   .footer-container{
