@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import "./NavItems.css";
 import { GrMenu, GrClose } from "react-icons/gr";
+import menu from "../featureMenu/FeatureMenu";
 
 const NavItems = (props) => {
   const [sidebar, setSidebar] = useState(false);
@@ -51,7 +52,10 @@ const NavItems = (props) => {
             initial={animateFrom}
             animate={animateTo}
             transition={{ delay: 0.15 }}
-            onClick={() => props.isMobile && props.closeMobileMenu()}
+            onClick={() => {
+              props.isMobile && props.closeMobileMenu();
+              window.scrollTo(0, document.getElementById().offsetTop);
+            }}
           >
             <NavLink to="">Menu</NavLink>
           </motion.li>
@@ -93,7 +97,6 @@ const NavItems = (props) => {
           >
             <NavLink to="#">
               <svg
-                // width="46"
                 height="24"
                 viewBox="0 0 46 44"
                 fill="none"
